@@ -18,7 +18,7 @@ The project automates three key tasks:
 
 ## Model Architecture
 
-![Model Architecture](images/Untitled Diagram.drawio (12).png)
+![Model Architecture](assets/modeldiag.png)
 
 The system follows a modular NLP pipeline. First, raw legal petitions are preprocessed and summarized using LetSum to focus on key arguments. These summaries are embedded using inLegalBERT, and the embeddings are passed through a BiLSTM with attention for binary classification of petition acceptance. To enhance interpretability, a fine-tuned Legal LLaMA model generates textual explanations for the predictions. Additionally, the system performs precedent retrieval by computing semantic similarity using BERT embeddings, cosine similarity, and Jaccard coefficient to rank and display the top-10 most relevant past cases.
 
