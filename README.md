@@ -3,7 +3,7 @@
 ![Model Architecture](assets/modeldiag.png)
 
 Intelligent Legal Case Reasoning and Precedent Retrieval
-ILCR-PR is an end-to-end NLP-driven system designed to assist in legal judgment prediction and precedent retrieval for the Indian Supreme Court. It leverages advanced language models to classify case outcomes, generate human-readable explanations, and retrieve semantically relevant past cases to support legal analysis.
+(ILCR-PR) is an end-to-end NLP-driven system designed to assist in legal judgment prediction and precedent retrieval for the Indian Supreme Court. It leverages advanced language models to classify case outcomes, generate human-readable explanations, and retrieve semantically relevant past cases to support legal analysis.
 
 ---
 
